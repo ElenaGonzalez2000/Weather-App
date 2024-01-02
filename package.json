@@ -1,17 +1,19 @@
 {
   "name": "watherapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esta es una aplicación del clima que utiliza la API de OpenWeather para obtener información meteorológica de diferentes ciudades. La aplicación está construida con HTML, CSS y JavaScript.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass assets/scss/styles.scss assets/css/styles.css",
+    "build": "sass assets/scss/styles.scss assets/css/styles.css",
     "sass": "nodemon -e scss -x \"npm run build\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^9.0.0",
-    "nodemon": "^3.0.2"
-  }
+    "nodemon": "^3.0.2",
+    "sass": "^1.69.7"
+  },
+  "keywords": []
 }
