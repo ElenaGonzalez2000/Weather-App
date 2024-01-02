@@ -22,6 +22,8 @@ async function checkWeather(city) {
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
     const status = data.weather[0].main;
+    console.log(data)
+
 
     if (status == "Clouds") {
       weatherIcon.src = "../assets/images/clouds.png";
